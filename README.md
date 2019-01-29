@@ -40,7 +40,7 @@ The linked list stores the head (starting node) and has methods to manipulate th
 
 ```ruby
 class LinkedList
-  attr_accessor :value
+  attr_accessor :head
 
   def initialize(node = nil)
     @head = node
