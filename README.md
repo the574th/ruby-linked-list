@@ -7,11 +7,17 @@ Each node of a list is made up of two items - the data and a reference to the ne
 
 ![](https://s3-us-west-2.amazonaws.com/ib-assessment-tests/problem_images/singly-ll.png)
 
-![https://www.interviewbit.com/courses/programming/topics/linked-lists/](https://www.interviewbit.com/courses/programming/topics/linked-lists/)
+ref:
+[https://www.interviewbit.com/courses/programming/topics/linked-lists/](https://www.interviewbit.com/courses/programming/topics/linked-lists/)
 
 ## Instructions
 
 Implement the linked list structure in ruby. Some starter code is provided below.
+
+Start with the 2 methods below:
+
+- add: Adds a node to the end of the list (aka push).
+- print: Traverse the entire list and print it.
 
 ### Node
 
@@ -44,7 +50,7 @@ class LinkedList
     #add a new node to the list
   end
 
-  def printList
+  def print
     #prints the entire list
   end
 end
